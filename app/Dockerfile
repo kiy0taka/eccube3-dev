@@ -1,6 +1,5 @@
 FROM php:5.6.25-apache
 
-
 # apt-get
 RUN apt-get clean
 RUN apt-get update && apt-get install -y \
